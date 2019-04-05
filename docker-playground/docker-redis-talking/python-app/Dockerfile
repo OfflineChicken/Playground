@@ -1,0 +1,28 @@
+# our base image
+FROM alpine:3.5
+
+ARG redisport 
+ENV redisport ${redisport}
+ARG redishost 
+ENV redishost ${redishost}
+ARG heartbeatinterval
+ENV heartbeatinterval ${heartbeatinterval}
+
+RUN hostname
+RUN echo "ARGS: ${redishost} ${redisport} ${heartbeatinterval}" 
+
+# Install python and pip
+RUN apk add --update py2-pip
+
+# upgrade pip
+RUN pip install --upgrade pip
+
+# install Python modules needed by the Python app
+COPY requirements.txt /usr/src/app/
+RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+
+# copy files required for the app to run
+COPY app.py /usr/src/app/
+
+# run the application
+CMD python /usr/src/app/app.py ${redishost} ${redisport} $(hostname -i) ${heartbeatinterval}
