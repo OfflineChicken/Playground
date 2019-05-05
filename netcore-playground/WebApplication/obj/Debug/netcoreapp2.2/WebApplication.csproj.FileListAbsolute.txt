@@ -1,0 +1,14 @@
+C:\Dev\Playground\netcore-playground\WebApplication\bin\Debug\netcoreapp2.2\WebApplication.deps.json
+C:\Dev\Playground\netcore-playground\WebApplication\bin\Debug\netcoreapp2.2\WebApplication.runtimeconfig.json
+C:\Dev\Playground\netcore-playground\WebApplication\bin\Debug\netcoreapp2.2\WebApplication.runtimeconfig.dev.json
+C:\Dev\Playground\netcore-playground\WebApplication\bin\Debug\netcoreapp2.2\WebApplication.dll
+C:\Dev\Playground\netcore-playground\WebApplication\bin\Debug\netcoreapp2.2\WebApplication.pdb
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.csprojAssemblyReference.cache
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.csproj.CoreCompileInputs.cache
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.RazorAssemblyInfo.cache
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.RazorAssemblyInfo.cs
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.AssemblyInfoInputs.cache
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.AssemblyInfo.cs
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.dll
+C:\Dev\Playground\netcore-playground\WebApplication\obj\Debug\netcoreapp2.2\WebApplication.pdb
