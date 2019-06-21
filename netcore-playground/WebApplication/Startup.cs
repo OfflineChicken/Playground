@@ -29,8 +29,8 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddHealthChecks()
-                .AddCheck<SlowDependencyHealthCheck>("Slow", failureStatus: null, tags: new[] { "ready", });
+            services.AddHealthChecks();
+                //.AddCheck<SlowDependencyHealthCheck>("Slow", failureStatus: null, tags: new[] { "ready", });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
