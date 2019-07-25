@@ -4,4 +4,6 @@ services:
     image: consul:latest
     ports: 
       - "8500:8500"
-    
+    # command: consul agent -dev -enable-script-checks -node=web -ui
+    volumes:
+      - ./scripts:/consul/config
