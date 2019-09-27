@@ -9,7 +9,7 @@ steps:
     pwd
     cd "angular-playground/hello-world/hello-world"
     docker build -t angularapp .
-    docker run --name angularapp angularapp
+    docker run --name angularapp -d angularapp
     docker stop angularapp
     docker rm angularapp
   displayName: 'Build Dockerfile'
