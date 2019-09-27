@@ -10,6 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: |
-    docker build -t angularapp .
-  displayName: 'Build Dockerfile'
+
+- task: Docker@2
+  inputs:
+    command: 'build'
+    Dockerfile: '**/angular-playground/hello-world/Dockerfile'
