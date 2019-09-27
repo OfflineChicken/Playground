@@ -12,6 +12,6 @@ pool:
 steps:
 - script: |
     pwd
-    cd "angular-playground/hello-world"
+    cd "angular-playground/hello-world/hello-world"
     docker build -t angularapp .
   displayName: 'Build Dockerfile'
