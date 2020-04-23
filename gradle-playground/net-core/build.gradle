@@ -1,0 +1,8 @@
+task build(type: Exec) {
+    workingDir '.'
+    commandLine 'dotnet', 'build'
+}
+
+task run(type: Exec) {
+    commandLine 'dotnet', 'run'
+}
